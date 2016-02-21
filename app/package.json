@@ -1,0 +1,26 @@
+{
+  "name": "jvstalker-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinequanonh/jvstalker-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sinequanonh/jvstalker-frontend/issues"
+  },
+  "homepage": "https://github.com/Sinequanonh/jvstalker-frontend#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap": "^4.0.0-alpha.2",
+    "compass": "^0.1.1",
+    "jquery": "^2.2.0"
+  }
+}
