@@ -21,6 +21,7 @@
     "angular": "^1.5.0",
     "bootstrap": "^3.3.6",
     "compass": "^0.1.1",
+    "http-server": "^0.9.0",
     "jquery": "^2.2.0"
   }
 }

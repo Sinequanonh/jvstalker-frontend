@@ -1,7 +1,23 @@
-# JvStalker Frontend
-JvStalker, moteur de recherche pour les forums de jeuxvideo.com.
+# JvArchive - frontend
+JvArchive est un moteur de recherche conçu autour des forums de jeuxvideo.com afin d'ajouter des fonctionnalités manquantes au site.
+# Installation
+Se placer dans le dossier app/:
 
-# Installing the Application
-npm install
+    cd app
+Puis installer les dépendances:
 
-http-server
+    npm install
+    
+Lancer le serveur frontend, toujours depuis app/:
+
+    http-server
+    
+A l'adresse http://localhost:8080/
+
+Installer compass:
+
+    gem install compass
+
+Puis le lancer, depuis app/:
+
+    compass watch
