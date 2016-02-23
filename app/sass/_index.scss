@@ -1,40 +1,71 @@
 body {
-	font-family: RobotoMono;
+	font-family: Helvetica Neue, Helvetica, sans-serif;
 	background-color: $pal-bluedark;
 }
 
 .media-list {
-	border-radius: 3px;
+	border-radius: 0px;
 	padding-top: 4px;
 	padding-left: 4px;
 	padding-right: 4px;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 12px 0 rgba(0, 0, 0, 0.19);
+	/*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19);*/
 	background-color: $pal-bluelight;
-
 	.media-heading {
+		font-family: RobotoMono;
 		padding-top: 3px;
 		line-height: 14px;
-		color: $pal-green	;
+		color: $pal-green;
 	}
 	.media-body {
 		p {
+			font-family: FiraCode;
 			color: $pal-orange;
 		}
 	}
 	p {
-		color: $white;
+		color: $pal-gray;
 		vertical-align: center;
 		text-align: justify;
 	}
 }
 
 .my-fluid-container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	.media-list {
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		&:nth-child(even) {
+			border-bottom-color: $pal-green;
+		}
+		&:nth-child(odd) {
+			border-bottom-color: $pal-orange;
+		}
+	}
 }
 
-.navbar-inverse {
+.navbar {
 	margin-bottom: 8px;
 }
+
+blockquote {
+	.blockquote-jv {
+	font-size: 14px;
+	
+	}
+}
+
+::-webkit-scrollbar {
+width: 8px;
+height: 15px;
+}
+::-webkit-scrollbar-track-piece  {
+background-color: $pal-orange;
+}
+::-webkit-scrollbar-thumb:vertical {
+height: 30px;
+background-color: $pal-green;
+}
+ 
