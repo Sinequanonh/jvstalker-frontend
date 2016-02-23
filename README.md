@@ -12,7 +12,7 @@ Lancer le serveur frontend, toujours depuis app/:
 
     http-server
     
-A l'adresse http://localhost:8080/
+Aller à l'adresse http://localhost:8080/
 
 Installer compass:
 

@@ -1,3 +1,37 @@
 body {
 	font-family: FiraCode;
+	background-color: $pal-bluedark;
+}
+
+.media-list {
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 12px 0 rgba(0, 0, 0, 0.19);
+	background-color: $pal-bluelight;
+
+	.media-heading {
+		color: $pal-gray;
+	}
+	.media-body {
+		p {
+			color: $pal-orange;
+		}
+	}
+	p {
+		color: $white;
+		vertical-align: center;
+		text-align: justify;
+	}
+}
+
+.my-fluid-container {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-inverse {
+	margin-bottom: 8px;
 }

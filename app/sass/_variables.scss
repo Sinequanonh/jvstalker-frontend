@@ -1,4 +1,15 @@
 @import "compass/css3";
 
-@include font-face('FiraCode',  font-files('/resources/fonts/FiraCode/FiraCode-Regular.otf'));
-@include font-face('RobotoMono',  font-files('/resources/fonts/RobotoMono/RobotoMono-Regular.ttf'));
+@include font-face('FiraCode',  font-files('/resources/fonts/FiraCode/FiraCode-Light.otf'));
+@include font-face('RobotoMono',  font-files('/resources/fonts/RobotoMono/RobotoMono-Thin.ttf'));
+
+$palette-pink: #F276CA;
+
+/* Palette 1 */
+
+$pal-bluedark: #20364b;
+$pal-bluelight: #30485f;
+$pal-green: #00c1b7;
+$pal-gray: #8d979c;
+$pal-orange: #ff6647;
+$white: #ffffff;
