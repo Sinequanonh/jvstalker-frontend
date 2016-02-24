@@ -1,6 +1,7 @@
-body {
+html, body {
 	font-family: Helvetica Neue, Helvetica, sans-serif;
 	background-color: $pal-bluedark;
+	font-size: em(16px);
 }
 
 .media-list {
@@ -11,7 +12,7 @@ body {
 	/*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 6px 0 rgba(0, 0, 0, 0.19);*/
 	background-color: $pal-bluelight;
 	.media-heading {
-		font-family: RobotoMono;
+		font-family: RobotoMono, FiraCode, sans-serif;
 		padding-top: 3px;
 		line-height: 14px;
 		color: $pal-green;
@@ -52,20 +53,20 @@ body {
 
 blockquote {
 	.blockquote-jv {
-	font-size: 14px;
+	font-size: em(14px);
 	
 	}
 }
 
 ::-webkit-scrollbar {
-width: 8px;
-height: 15px;
+	width: 8px;
+	height: 15px;
 }
-::-webkit-scrollbar-track-piece  {
-background-color: $pal-orange;
+	::-webkit-scrollbar-track-piece  {
+	background-color: $pal-orange;
 }
-::-webkit-scrollbar-thumb:vertical {
-height: 30px;
-background-color: $pal-green;
+	::-webkit-scrollbar-thumb:vertical {
+	height: 30px;
+	background-color: $pal-green;
 }
- 
+
